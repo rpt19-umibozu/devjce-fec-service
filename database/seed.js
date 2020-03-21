@@ -72,4 +72,9 @@ Reviews.deleteMany({id: {$gt: 1}}, (err) => {
   }
 });
 
+module.exports = {
+  randYear,
+  floatNum,
+}
+
 //TODO: Is there a way to conclude a file running to give control back to command line?
