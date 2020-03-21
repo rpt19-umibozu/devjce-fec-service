@@ -14,21 +14,10 @@
     "test": "jest"
   },
   "jest": {
+    "verbose": true,
     "transform": {
-      "^.+(js|jsx)$": "<rootDir>/jsTransformer.js",
-      "^.+(css)$": "<rootDir>/cssTransformer.js"
-    },
-    "moduleFileExtensions": ["js", "json","jsx" ],
-    "moduleNameMapper": {
-      "^.*[.](jpg|JPG|gif|GIF|png|PNG|less|LESS|css|CSS)$": "EmptyModule"
-    },
-    "preprocessorIgnorePatterns": [ "/node_modules/" ],
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react",
-      "<rootDir>/node_modules/react-dom",
-      "<rootDir>/node_modules/react-addons-test-utils",
-      "<rootDir>/EmptyModule.js"
-    ]
+      "^.+\\.js$": "babel-jest"
+    }
   },
   "dependencies": {
     "express": "^4.17.1",
