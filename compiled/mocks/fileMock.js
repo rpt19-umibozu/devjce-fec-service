@@ -1,0 +1,4 @@
+'use strict';
+
+module.exports = 'test-file-stub';
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL21vY2tzL2ZpbGVNb2NrLmpzIl0sIm5hbWVzIjpbIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7O0FBQUFBLE9BQU9DLE9BQVAsR0FBaUIsZ0JBQWpCIiwiZmlsZSI6ImZpbGVNb2NrLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSAndGVzdC1maWxlLXN0dWInOyJdfQ==

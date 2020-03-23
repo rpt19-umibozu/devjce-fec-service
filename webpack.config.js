@@ -6,7 +6,7 @@ module.exports = {
   entry: `${source_dir}/index.jsx`,
   output: {
     filename: `bundle.js`,
-    path: `${public_dir}`
+    path: `${public_dir}`,
   },
   module: {
     rules: [
